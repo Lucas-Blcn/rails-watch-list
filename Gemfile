@@ -5,6 +5,16 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.2"
 
+gem "bootstrap", "~> 5.2"
+# Permet l'optimisation de l'utilisation des ressources
+gem "autoprefixer-rails"
+# Permet d'importer les icones font-awesome
+gem "font-awesome-sass", "~> 6.1"
+# Permet d'importer la commande simple_form_for
+gem "simple_form"
+# Permet d'utiliser un format plus avancé de css, le SCSS
+gem "sassc-rails"
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
